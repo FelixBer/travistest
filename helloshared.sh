@@ -1,0 +1,1 @@
+LD_LIBRARY_PATH=./:$LD_LBRARY_PATH ./helloshared 3
