@@ -1,12 +1,12 @@
-dist:   bionic
+#dist:   bionic
 language: c
 sudo: true
 
 before_install:
-- sudo apt-get update -q
+	- sudo apt-get update -q
 
 script:
-	make
+	- make
 
 after_script:
-	make clean
+	- make clean
