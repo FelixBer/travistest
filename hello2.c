@@ -9,7 +9,7 @@ char *nameptr;
 char *ucnameptr;
 
 void printhello(int n) {
-	xxxxchar *helloptr = "Hello ";
+	char *helloptr = "Hello ";
 	for(int i=0; i<n; i++) {
 		printf("%s%s: %s\n", helloptr, nameptr, ucnameptr);
 	}
