@@ -1,0 +1,12 @@
+dist:   bionic
+language: c
+sudo: true
+
+before_install:
+- sudo apt-get update -q
+
+script:
+	make
+
+after_script:
+	make clean
